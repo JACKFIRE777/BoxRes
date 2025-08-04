@@ -92,8 +92,8 @@
       ]
     },
     {
-      "key": "黑木耳(海外)",
-      "name": "黑木耳(海外)",
+      "key": "木耳(海外)",
+      "name": "木耳(海外)",
       "type": 1,
       "api": "https://json.heimuer.xyz/api.php/provide/vod/",
       "playUrl": "",
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "key": "黑木耳",
-      "name": "黑木耳",
+      "key": "木耳",
+      "name": "木耳",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
       "playUrl": "",
