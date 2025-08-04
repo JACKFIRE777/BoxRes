@@ -121,6 +121,15 @@
         "逆袭短剧"
       ]
     },
+        {
+      "key": "旺旺资源",
+      "name": "旺旺资源",
+      "type": 1,
+      "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=lis",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
     {
       "key": "天涯资源",
       "name": "天涯资源",
