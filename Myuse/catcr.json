@@ -66,16 +66,6 @@
       "filterable": 0
     },
     {
-      "key": "苹果",
-      "name": "🍎┃小苹果┃IJK",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "量子资源",
       "name": "🥑量子资源",
       "type": 1,
