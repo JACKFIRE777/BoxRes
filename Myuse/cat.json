@@ -122,39 +122,20 @@
       ]
     },
     {
-      "key": "量子资源",
-      "name": "🥑量子资源",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "playUrl": "http://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "电影片",
-        "国产剧",
-        "国产动漫",
-        "泰国剧",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "动漫",
-        "体育",
-        "剧情片",
-        "动作片",
-        "爱情片",
-        "喜剧片"
-      ]
-    },
-    {
       "key": "旺旺资源",
       "name": "旺旺资源",
       "type": 1,
-      "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
+      "api": "https://api.wwzy.tv/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "categories": [
+        "短剧",
+        "分类2",
+        "分类3",
+        "分类4",
+        "教程"
+      ]
     },
     {
       "key": "天涯资源",
