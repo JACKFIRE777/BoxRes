@@ -122,13 +122,16 @@
       ]
     },
         {
-      "key": "旺旺资源",
-      "name": "旺旺资源",
+      "key": "短剧-旺旺",
+      "name": "短剧-旺旺",
       "type": 1,
       "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=lis",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
+      "categories": [
+        "短剧"
+      ]
     },
     {
       "key": "天涯资源",
