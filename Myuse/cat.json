@@ -121,15 +121,22 @@
         "逆袭短剧"
       ]
     },
-    {
-      "key": "旺旺资源",
-      "name": "旺旺资源",
-      "type": 1,
-      "api": "https://api.wwzy.tv/api.php/provide/vod/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-    },
+{
+  "key": "旺旺资源",
+  "name": "旺旺资源",
+  "type": 1,
+  "api": "https://api.wwzy.tv/api.php/provide/vod/",
+  "playUrl": "",
+  "searchable": 1,
+  "quickSearch": 1,
+  "categories": [
+    "短剧",
+    "分类2",
+    "分类3",
+    "分类4",
+    "教程"
+  ]
+},
     {
       "key": "天涯资源",
       "name": "天涯资源",
