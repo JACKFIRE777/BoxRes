@@ -2,8 +2,8 @@
 
   "classes": [
     {
-      "type_name": "象棋",
-      "type_id": "象棋"
+      "type_name": "中国象棋",
+      "type_id": "中国象棋"
     },
     {
       "type_name": "美食",
