@@ -384,6 +384,12 @@
       "ext": "https://www.kuin.one/api.php/app/"
     },
     {
+      "key": "T4-bili1",
+      "name": "B站-幼儿(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=少儿教育"
+    },
+    {
       "key": "Bili",
       "name": "🅱哔哔┃合集",
       "type": 3,
