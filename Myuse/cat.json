@@ -121,7 +121,7 @@
         "逆袭短剧"
       ]
     },
-        {
+    {
       "key": "短剧-旺旺",
       "name": "短剧-旺旺",
       "type": 1,
@@ -129,6 +129,8 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
+      "categories": [
+        "短剧",
       ]
     },
     {
