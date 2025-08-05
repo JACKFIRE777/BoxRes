@@ -81,6 +81,17 @@
       "filterable": 0
     },
     {
+  "key": "csp_douban_preview",
+  "name": "🌸新片｜预告",
+  "type": 3,
+  "api": "csp_DouBan",
+  "jar": "./lib/douban_preview.jar",  // 新增豆瓣预告专用jar路径
+  "searchable": 0,                   // 保持不可搜索
+  "quickSearch": 0,                  // 新增：关闭快速搜索
+  "filterable": 0,                   // 新增：关闭过滤
+  "ext": "./ext/douban_preview.json" // 可选：豆瓣预告扩展配置
+    },
+    {
       "key": "木耳",
       "name": "木耳",
       "type": 1,
@@ -164,6 +175,72 @@
       "changeable": 0,
       "ext": "./ext/biliych.json"
     }
+    {
+  "key": "csp_tencent",
+  "name": "🌐腾讯｜视频",
+  "type": 3,
+  "api": "csp_Tencent",
+  "jar": "./lib/txsp.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "./ext/tencent.json"
+},
+{
+  "key": "csp_youku",
+  "name": "🌐优酷｜视频",
+  "type": 3,
+  "api": "csp_Youku",
+  "jar": "./lib/youku.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "./ext/youku.json"
+},
+{
+  "key": "csp_mango",
+  "name": "🌐芒果｜视频",
+  "type": 3,
+  "api": "csp_MangoTV",
+  "jar": "./lib/mango.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "./ext/mango.json"
+},
+{
+  "key": "csp_iqiyi",
+  "name": "🌐爱奇艺｜视频",
+  "type": 3,
+  "api": "csp_Iqiyi",
+  "jar": "./lib/iqiyi.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "./ext/iqiyi.json"
+},
+{
+  "key": "csp_360",
+  "name": "🛡️三六零｜视频",
+  "type": 3,
+  "api": "csp_360",
+  "jar": "./lib/360.jar",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 0
+},
+{
+  "key": "csp_xbky",
+  "name": "🎬快映｜4K弹幕",
+  "type": 3,
+  "api": "csp_XBKY",
+  "jar": "./lib/xbky.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "changeable": 1,
+  "ext": "./ext/xbky.json"
+}
   ],
   "doh": [
     {
