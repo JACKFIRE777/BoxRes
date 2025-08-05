@@ -146,14 +146,6 @@
       "quickSearch": 1
     },
     {
-      "key": "视频采集3",
-      "name": "采集视频3",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "filterable": 0,
-    },
-    {
       "key": "最大资源",
       "name": "最大资源",
       "type": 0,
