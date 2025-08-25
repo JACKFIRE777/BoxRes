@@ -2,7 +2,6 @@
   "wallpaper": "https://xn--dkw0c.u.xn--dkw.xn--6qq986b3xl/m/t/",
   "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
   "spider": "https://alicliimg.clewm.net/342/790/68790342/1755399436259e4e0f5b7e742b4961f4a35460f10a5341755399434.jpg;md5;6276abe2ed52f1d2c89907eb2ace564b",
-  "warningText": "杰歌提示:📢接口软件永远免费📢长期维护切勿贩卖",
 
   "lives": [
     {
@@ -17,11 +16,6 @@
   ],
 
   "sites": [
-    { "key": "豆瓣1", "name": "📢公告❤更新:8/24❤", "type": 3, "api": "csp_Notice", "searchable": 0, "changeable": 0, "jar": "https://alicliimg.clewm.net/342/790/68790342/17362297695164b4887eab40d6fafb492c936297ce9901736229766.jpg;md5;ed61f5e30960fa9d7c4ef6cf81a3f01b", "ext": "https://xn--dkw0c.u.xn--dkw.xn--6qq986b3xl/m/公告.php?b=杰歌" },
-    { "key": "豆瓣2", "name": "📢杰歌", "type": 3, "api": "csp_Douban", "searchable": 0 },
-    { "key": "豆瓣3", "name": "📢接口软件永远免费", "type": 3, "api": "csp_Douban", "searchable": 0 },
-    { "key": "豆瓣4", "name": "📢长期维护切勿贩卖", "type": 3, "api": "csp_Douban", "searchable": 0 },
-
     { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_DouBan", "searchable": 0 },
     { "key": "YGP", "name": "🚀叨观荐影┃预告片", "type": 3, "api": "csp_YGPGuard", "searchable": 0, "quickSearch": 0, "changeable": 0 },
     { "key": "豆瓣预告", "name": "🐼┃豆瓣┃预告", "type": 3, "api": "csp_YGP", "playerType": 2, "searchable": 0 },
