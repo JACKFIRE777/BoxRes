@@ -2,7 +2,6 @@
   "wallpaper": "https://xn--zz-5f5du30d.v.nxog.top/m/t/",
   "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
   "spider": "https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;6276abe2ed52f1d2c89907eb2ace564b",
-  "warningText": "我爱zz提示:📢接口软件永远免费📢长期维护切勿贩卖",
 
   "sites": [
     {
@@ -19,6 +18,33 @@
       "api": "csp_DouBan",
       "searchable": 0
     },
+
+    {
+      "key": "荐片",
+      "name": "💡荐片｜影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "ext": "https://ij1men.slsw6.com"
+    },
+    {
+      "key": "瓜子影视",
+      "name": "💡瓜子｜影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "苹果影视",
+      "name": "💡苹果｜影视",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
     {
       "key": "巧技",
       "name": "🐢聚搜┃搜索",
