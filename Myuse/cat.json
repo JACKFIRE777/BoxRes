@@ -1,227 +1,47 @@
 {
-  "spider": "http://120.53.102.254/mysc/xc/lsq_0325.jar",
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "wallpaper": "https://xn--dkw0c.u.xn--dkw.xn--6qq986b3xl/m/t/",
+  "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
+  "spider": "https://alicliimg.clewm.net/342/790/68790342/1755399436259e4e0f5b7e742b4961f4a35460f10a5341755399434.jpg;md5;6276abe2ed52f1d2c89907eb2ace564b",
+  "warningText": "杰歌提示:📢接口软件永远免费📢长期维护切勿贩卖",
+
   "lives": [
     {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "live",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3N1cGVybWVndW8vQm94UmVzL21haW4vTXl1c2UvbGl2ZS50eHQ="
-          ]
-        }
-      ]
-    },
-    {
-      "name": "LIVE",
+      "name": "杰歌",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "LIVE_fan",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "LIVE_home",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/joevess/IPTV/refs/heads/main/home.m3u8",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "LIVE_Gather",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
+      "url": "https://xn--dkw0c.u.xn--dkw.xn--6qq986b3xl/m/tv/?ou=欧歌APP",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "logo": "https://py.nxog.eu.org/https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
+      "playerType": 2,
+      "timeout": 10
     }
   ],
+
   "sites": [
+    { "key": "豆瓣1", "name": "📢公告❤更新:8/24❤", "type": 3, "api": "csp_Notice", "searchable": 0, "changeable": 0, "jar": "https://alicliimg.clewm.net/342/790/68790342/17362297695164b4887eab40d6fafb492c936297ce9901736229766.jpg;md5;ed61f5e30960fa9d7c4ef6cf81a3f01b", "ext": "https://xn--dkw0c.u.xn--dkw.xn--6qq986b3xl/m/公告.php?b=杰歌" },
+    { "key": "豆瓣2", "name": "📢杰歌", "type": 3, "api": "csp_Douban", "searchable": 0 },
+    { "key": "豆瓣3", "name": "📢接口软件永远免费", "type": 3, "api": "csp_Douban", "searchable": 0 },
+    { "key": "豆瓣4", "name": "📢长期维护切勿贩卖", "type": 3, "api": "csp_Douban", "searchable": 0 },
+
+    { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_DouBan", "searchable": 0 },
+    { "key": "YGP", "name": "🚀叨观荐影┃预告片", "type": 3, "api": "csp_YGPGuard", "searchable": 0, "quickSearch": 0, "changeable": 0 },
+    { "key": "豆瓣预告", "name": "🐼┃豆瓣┃预告", "type": 3, "api": "csp_YGP", "playerType": 2, "searchable": 0 },
+    { "key": "update", "name": "🎬️摸鱼┃电影┃预告", "type": 3, "api": "csp_YGPGuard", "searchable": 0, "quickSearch": 0, "changeable": 0 },
+    { "key": "豆瓣", "name": "🚀豆瓣预告", "type": 3, "api": "csp_YGP", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1 },
+
     {
-      "key": "MV大全",
-      "name": "🎵MV音乐🎵",
-      "type": 4,
-      "api": "http://120.53.102.254/dsp/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "T4-yugaopian",
-      "name": "影视-预告片(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/yugaopian.php"
-    },
-    {
-      "key": "T4-bili1",
-      "name": "B站-幼儿(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/bili.php?id=少儿教育",
+      "key": "索尼资源",
+      "name": "索尼┃资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+      "categories": [
+        "动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片",
+        "国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧",
+        "纪录片","大陆综艺","日韩综艺","港台综艺","欧美综艺",
+        "国产动漫","日韩动漫","欧美动漫","动画片","港台动漫","海外动漫",
+        "演唱会","体育赛事","篮球","足球","预告片","斯诺克","影视解说"
+      ],
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "csp_douban",
-      "name": "🌕┃豆瓣┃推荐",
-      "type": 3,
-      "api": "csp_DouDou",
-      "jar": "./lib/fty.jar",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-  "key": "csp_douban_preview",
-  "name": "🌸新片｜预告",
-  "type": 3,
-  "api": "csp_DouBan",
-  "jar": "./lib/douban_preview.jar",  // 新增豆瓣预告专用jar路径
-  "searchable": 0,                   // 保持不可搜索
-  "quickSearch": 0,                  // 新增：关闭快速搜索
-  "filterable": 0,                   // 新增：关闭过滤
-  "ext": "./ext/douban_preview.json" // 可选：豆瓣预告扩展配置
-    },
-    {
-      "key": "木耳",
-      "name": "木耳",
-      "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "剧情片", "动作片", "冒险片", "同性片", "喜剧片", "奇幻片", "恐怖片",
-        "国产剧", "国产动漫", "欧美动漫", "日本动漫", "韩国动漫", "港台动漫",
-        "韩剧", "日剧", "悬疑片", "惊悚片", "灾难片", "爱情片", "犯罪片",
-        "科幻片", "动画电影", "短剧", "泰剧", "台剧", "欧美剧", "新马剧",
-        "战争片", "经典片", "网络电影", "国产综艺", "港台综艺", "韩国综艺",
-        "日本综艺", "欧美综艺", "港剧", "合集短剧", "虐恋短剧", "逆袭短剧"
-      ]
-    },
-    {
-      "key": "短剧-旺旺",
-      "name": "短剧-旺旺",
-      "type": 1,
-      "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=lis",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "光速资源",
-      "name": "🎀光速┃采集",
-      "type": 1,
-      "api": "http://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "电影", "电视剧", "综艺", "动漫", "动作片", "喜剧片", "爱情片",
-        "科幻片", "剧情片", "恐怖片", "战争片", "大陆剧", "欧美剧", "港澳剧",
-        "韩剧", "动漫电影", "日剧", "台湾剧", "泰剧", "记录片", "伦理片"
-      ]
-    },
-    {
-      "key": "csp_短剧网",
-      "name": "短剧网",
-      "type": 3,
-      "api": "csp_Duanjuw",
-      "jar": "./lib/xyq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "陌陌",
-      "name": "🧡短剧2",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "./lib/dj0.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.kuin.one/api.php/app/"
-    },
-    {
-      "key": "Bili",
-      "name": "🅱哔哔┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./lib/guodaxia.jar",
-      "style": { "type": "rect", "ratio": 1.597 },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./ext/bilibili.json"
-    },
-    {
-      "key": "Biliych",
-      "name": "🅱哔哔┃歌曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./lib/guodaxia.jar",
-      "style": { "type": "rect", "ratio": 1.597 },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./ext/biliych.json"
     }
-  ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4", "8.8.8.8"]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": ["1.1.1.1", "1.0.0.1", "2606:4700:4700::1111", "2606:4700:4700::1001"]
-    }
-  ],
-  "rules": [
-    {
-      "name": "proxy",
-      "hosts": [
-        "raw.githubusercontent.com", "googlevideo.com", "haiwaikan.com",
-        "youtube.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*"
-      ]
-    },
-    {
-      "name": "海外看",
-      "hosts": ["haiwaikan"],
-      "regex": ["10.0099", "10.3333", "16.0599"]
-    }
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        { "category": 4, "name": "opensles", "value": "0" },
-        { "category": 4, "name": "framedrop", "value": "1" },
-        { "category": 2, "name": "skip_loop_filter", "value": "48" }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        { "category": 4, "name": "mediacodec", "value": "1" },
-        { "category": 4, "name": "mediacodec-hevc", "value": "1" }
-      ]
-    }
-  ],
-  "ads": [
-    "www.googletagmanager.com",
-    "hm.baidu.com",
-    "cnzz.mmstat.com"
   ]
 }
