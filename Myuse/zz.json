@@ -63,6 +63,7 @@
     {"key":"T4-mybili","name":"B站-mybili(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=我的哔哩"},
     {"key":"T4-bili","name":"B站-哔哩(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php"},
     {"key":"T4-waiyu","name":"B站-外语(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=waiyu"},
+    {"key":"T4-bili1","name":"B站-象棋(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=象棋"},
     {"key":"T4-bili1","name":"B站-幼儿(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=少儿教育"},
     {"key":"T4-bili2","name":"B站-小学(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小学课堂"},
     {"key":"T4-bili3","name":"B站-初中(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=初中课堂"},
