@@ -25,6 +25,7 @@
     {"key":"T4-6v","name":"磁力-6V(T4)","type":4,"api":"https://catbox.n13.club/t9/6v.php"},
     {"key":"T4-xifan","name":"动漫-稀饭(T4)","type":4,"api":"https://catbox.n13.club/t9/xifan.php"},
     {"key":"T4-2024热门","name":"音乐-热门MV(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=2024"},
+    {"key":"T4-2025热门","name":"音乐-热门MTV(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=2025"},
     {"key":"T4-xiaogou","name":"音乐-小狗(T4)","type":4,"api":"https://catbox.n13.club/t9/xiaogou.php"},
     {"key":"T4-qingting","name":"音乐-蜻蜓(T4)","type":4,"api":"https://catbox.n13.club/t9/qingting.php"},
     {"key":"T4-tangdou","name":"音乐-糖豆(T4)","type":4,"api":"https://catbox.n13.club/t9/tangdou.php"},
@@ -53,5 +54,6 @@
     {"key":"T4-小灯塔国学","name":"B站-小灯塔国学(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小灯塔国学"}
   ]
 }
+
 
 
