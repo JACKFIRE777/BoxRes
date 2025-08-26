@@ -1,5 +1,5 @@
 {
- "spider": "https://d.kstore.dev/download/8943/file/lsq_0325.jar",
+ "spider": "https://d.kstore.dev/download/8943/file/lsq_0325.jar;md5;43c9f0e81ad6d8dfd1c95556da413b10",
 	"sites":[
 {"key":"MV大全","name":"🎵MV音乐🎵","type":4,"api":"http://120.53.102.254/dsp/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
