@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghfast.top/https://github.com/JACKFIRE777/BoxRes/blob/main/Myuse/lib/lsq_0325.jar",
+  "spider": "http://120.53.102.254/mysc/xc/lsq_0325.jar",
   "sites": [
 
     ## ===== 影视类 =====
@@ -95,4 +95,5 @@
     {"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]}
   ]
 }
+
 
