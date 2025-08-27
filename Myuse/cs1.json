@@ -1,3 +1,4 @@
+//      >>> 用的肥猫spider
 {
   "wallpaper": "https://xn--zz-5f5du30d.v.nxog.top/m/t/",
   "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
@@ -25,6 +26,7 @@
     { "key": "酷奇MV", "name": "🎸┃酷奇┃MV", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69", "searchable": 1, "quickSearch": 1, "filterable": 1, "style": { "type": "rect", "ratio": 1.433 }, "ext": { "主页url": "https://www.kuqimv.com", "直接播放": "1", "短视频": "1", "分类": "华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10", "分类url": "https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z", "数组": "<li>&&</li>", "标题": "title=\"&&\"", "副标题": "target=\"play\">&&<", "搜索模式": "1", "搜索url": "https://www.kuqimv.com/search.php?key={wd}" } },
     { "key": "MV_vod", "name": "🎤┃电视┃MTV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "changeable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/mtv.json" } },
     { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
+    {"key":"酷狗","name":"🐾┃酷狗┃音乐","type":3,"api":"csp_Kugou","playerType":2,"ext":{"classes":[{"type_name":"酷狗","type_id":"kugou"}]}},
 
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
     { "key": "酷狗", "name": "👉春盈┃酷狗", "type": 3, "api": "csp_Kugou", "jar": "http://www.wya6.cn/tz/wypg.php", "searchable": 1, "changeable": 0 },
@@ -51,5 +53,6 @@
     { "key": "应用商店", "name": "🛒本地包更新", "type": 3, "api": "csp_Market", "searchable": 0, "changeable": 0, "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php" }
   ]
 }
+
 
 
