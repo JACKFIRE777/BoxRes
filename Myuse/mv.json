@@ -30,9 +30,10 @@
     { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
     {"key":"酷狗","name":"🐾┃酷狗┃音乐","type":3,"api":"csp_Kugou","playerType":2,"ext":{"classes":[{"type_name":"酷狗","type_id":"kugou"}]},"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"},
 
+    {"key":"Iktv","name":"🎤KTV┃音乐🎤","type":3,"api":"csp_WexIktvGuard","searchable":1,"changeable":0,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9fadd28b5fb884e3/wex.png;md5;da870f2384c7d328231d8c47934e98e0"},
 
- 
-    {"key":"Iktv","name":"🎤王二小KTV┃音乐🎤","type":3,"api":"csp_WexIktvGuard","spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9fadd28b5fb884e3/wex.png;md5;da870f2384c7d328231d8c47934e98e0", "searchable":1,"changeable":0},
+
+    
     {"key":"csp_Yinyuetai","name":"雷蒙影视 | 🎵音悦台(SP)","type":3,"jar": "https://ghfast.top/https://github.com/JACKFIRE777/N3RD/blob/master/JN/N3RD/J/pg.jar", "api":"csp_Yinyuetai","searchable":1,"changeable":0},
     
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
