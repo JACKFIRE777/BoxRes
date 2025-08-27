@@ -27,7 +27,7 @@
     { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
 
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
-    { "key": "酷狗", "name": "🎵酷狗┃音乐", "type": 3, "api": "csp_Kugou", "searchable": 1, "quickSearch": 1, "changeable": 0, "jar": "https://tvbox.cainisi.cf/jar/fm1129.jar" },
+    { "key": "酷狗", "name": "👉春盈┃酷狗", "type": 3, "api": "csp_Kugou", "jar": "http://www.wya6.cn/tz/wypg.php", "searchable": 1, "changeable": 0 },
     { "key": "T4-xiaogou", "name": "音乐-小狗(T4)", "type": 4, "api": "https://catbox.n13.club/t9/xiaogou.php" },
     { "key": "T4-qingting", "name": "音乐-蜻蜓电台", "type": 4, "api": "https://catbox.n13.club/t9/qingting.php" },
     { "key": "T4-tangdou", "name": "音乐-糖豆广场舞", "type": 4, "api": "https://catbox.n13.club/t9/tangdou.php" },
@@ -51,3 +51,4 @@
     { "key": "应用商店", "name": "🛒本地包更新", "type": 3, "api": "csp_Market", "searchable": 0, "changeable": 0, "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php" }
   ]
 }
+
