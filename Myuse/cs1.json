@@ -1,7 +1,3 @@
-//      >>> 当前时间是：2025-08-27 10:04:54 <<<
-//  关注微信公众号【神秘的哥哥们】有惊喜哦！！！
-//  当前接口：https://xn--zz-5f5du30d.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=我爱zz
-
 {
   "wallpaper": "https://xn--zz-5f5du30d.v.nxog.top/m/t/",
   "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
@@ -22,42 +18,36 @@
 
   "sites": [
     { "key": "豆瓣2", "name": "📢豆瓣热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
-    { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_DouBan", "searchable": 0 },
+    { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_Douban", "searchable": 0 },
+
     { "key": "MV大全", "name": "🎵MV音乐🎵", "type": 4, "api": "http://120.53.102.254/dsp/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
     { "key": "MV演唱会", "name": "🎵┃歌曲┃MV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/song.json" } },
     { "key": "酷奇MV", "name": "🎸┃酷奇┃MV", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69", "searchable": 1, "quickSearch": 1, "filterable": 1, "style": { "type": "rect", "ratio": 1.433 }, "ext": { "主页url": "https://www.kuqimv.com", "直接播放": "1", "短视频": "1", "分类": "华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10", "分类url": "https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z", "数组": "<li>&&</li>", "标题": "title=\"&&\"", "副标题": "target=\"play\">&&<", "搜索模式": "1", "搜索url": "https://www.kuqimv.com/search.php?key={wd}" } },
     { "key": "MV_vod", "name": "🎤┃电视┃MTV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "changeable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/mtv.json" } },
-    { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull", "cookie": "" } },
+    { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
+
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
+    { "key": "酷狗", "name": "🎵酷狗┃音乐", "type": 3, "api": "csp_Kugou", "searchable": 1, "quickSearch": 1, "changeable": 0, "jar": "https://tvbox.cainisi.cf/jar/fm1129.jar" },
     { "key": "T4-xiaogou", "name": "音乐-小狗(T4)", "type": 4, "api": "https://catbox.n13.club/t9/xiaogou.php" },
     { "key": "T4-qingting", "name": "音乐-蜻蜓电台", "type": 4, "api": "https://catbox.n13.club/t9/qingting.php" },
     { "key": "T4-tangdou", "name": "音乐-糖豆广场舞", "type": 4, "api": "https://catbox.n13.club/t9/tangdou.php" },
     { "key": "T4-djuu", "name": "音乐-DJ(T4)", "type": 4, "api": "https://catbox.n13.club/t9/djuu.php" },
 
-    { "key": "演唱会", "name": "🅰️演唱会┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/演唱会.json" },
+    { "key": "演唱会", "name": "🅰️演唱会┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/演唱会.json" },
 
-    { "key": "MV", "name": "🌈歌曲┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/歌曲MV.json" },
+    { "key": "MV", "name": "🌈歌曲┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/歌曲MV.json" },
 
-    { "key": "csp_BBB", "name": "🅱️合集1┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/哔哩套餐1.json" },
+    { "key": "csp_BBB", "name": "🅱️合集1┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/哔哩套餐1.json" },
+    { "key": "Bili", "name": "🅱️合集2┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/哔哩套餐2.json" },
 
-    { "key": "Bili", "name": "🅱️合集2┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/哔哩套餐2.json" },
+    { "key": "美食", "name": "🌈美食┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/美食.json" },
 
-    { "key": "美食", "name": "🌈美食┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/美食.json" },
+    { "key": "球类", "name": "⚽️球类┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/球类合集.json" },
+    { "key": "球星", "name": "⚽️球星┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/球星合集.json" },
 
-    { "key": "球类", "name": "⚽️球类┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/球类合集.json" },
-
-    { "key": "球星", "name": "⚽️球星┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/球星合集.json" },
-
-    { "key": "戏曲", "name": "🅰️戏曲┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "order_num": 142, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/戏曲合集.json" },
+    { "key": "戏曲", "name": "🅰️戏曲┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/戏曲合集.json" },
 
     { "key": "push_agent", "name": "📢手机｜推送", "type": 3, "api": "csp_Push", "searchable": 0, "filterable": 0, "changeable": 0 },
-
     { "key": "应用商店", "name": "🛒本地包更新", "type": 3, "api": "csp_Market", "searchable": 0, "changeable": 0, "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php" }
   ]
 }
-
-
-
-
-
-
