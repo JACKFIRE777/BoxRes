@@ -2,7 +2,7 @@
 //      >>> 当前时间是：2025-08-27 13:16:28 <<<
 //  关注微信公众号【神秘的哥哥们】有惊喜哦！！！
 //  当前接口：https://xn--zz-5f5du30d.v.nxog.top/apitv.php?id=15
-https://cnb.cool/fish2018/zx/-/blob/master/custom_spider.jar
+
 {
 "spider":"https://cnb.cool/fish2018/zx/-/git/raw/master/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
 "wallpaper":"https://bing.img.run/rand.php",
@@ -37,7 +37,8 @@ https://cnb.cool/fish2018/zx/-/blob/master/custom_spider.jar
 {"key":"玩偶虎斑","name":"玩偶|虎斑","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/peizhi.json","siteUrl":"http://103.45.162.207:20720/","filter":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/wogg.json"}},
 {"key":"玩偶虎斑2","name":"玩偶|虎斑2","type":3,"api":"csp_kongbai","searchable":1,"changeable":0,"ext":{"commonConfig":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/peizhi.json","siteUrl":"http://xsayang.fun:12512","filter":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/wogg.json"}},
 {"key":"星剧社","name":"网盘|星剧社","type":3,"api":"csp_Star2","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://star.banye.tech:7086/","commonConfig":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/peizhi.json"}},
-{"key":"Youtube","name":"Youtube","type":3,"api":"csp_Youtube","searchable":1,"changeable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/youtube.json","cookie":""}},
+{"key":"Youtube","name":"Youtube","type":3,"api":"csp_Youtube","searchable":1,"changeable":1,"style":{"type":"rect","ratio":1.433},
+"ext":{"json":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/youtube.json","cookie":""}},
 {"key":"盤搜天意","name":"网盘|盤搜天意","type":3,"api":"csp_PanSou","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://www.tianyiso.com","commonConfig":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/peizhi.json"}},
 {"key":"賤賤","name":"賤賤","type":3,"api":"csp_Jianpian","searchable":1,"changeable":1,"ext":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/jianpian.json"},
 {"key":"lf_live10_min","name":"路飞丨Live","type":3,"searchable":0,"quickSearch":1,"filterable":1,"changeable":1,"api":"https://cnb.cool/fish2018/zx/-/git/raw/master/lib/lf_live10_min-output.js","ext":"https://cnb.cool/fish2018/zx/-/git/raw/master/json/lf_live.json"},
