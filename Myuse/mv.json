@@ -29,9 +29,9 @@
     { "key": "MV_vod", "name": "🎤┃电视┃MTV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "changeable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/mtv.json" } },
     { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
     {"key":"酷狗","name":"🐾┃酷狗┃音乐","type":3,"api":"csp_Kugou","playerType":2,"ext":{"classes":[{"type_name":"酷狗","type_id":"kugou"}]},"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"},
-    {"key": "music","name": "音乐|狗狗","type": 3,"api": "csp_Music","searchable": 0,"jar": "./jar/YSZYZ.jar;md5;b7a9c006c3a4985d809c4a1bcd5fa865","changeable": 0,"style": {"type": "rect","ratio": 1.433}},
-    {"key": "Iktv","name": "KTV","type": 3,"api": "csp_Iktv","searchable": 1,"changeable": 0,"jar":"https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/pg.jar"},
-    {"key": "Yinyuetai","name": "音悦台","type": 3,"api": "csp_Yinyuetai","searchable": 1,"changeable": 0,"jar":"https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/pg.jar"},
+    {"key": "music","name": "音乐|狗狗","type": 3,"api": "csp_Music","searchable": 0,"jar": "https://github.com/aliluya1977/TVBox/blob/663adf8b470671e0ee51fbc211dc3b474387dd86/jar/YSZYZ.jar;md5;b7a9c006c3a4985d809c4a1bcd5fa865","changeable": 0,"style": {"type": "rect","ratio": 1.433}},
+    {"key": "Iktv","name": "KTV","type": 3,"api": "csp_Iktv","searchable": 1,"changeable": 0,"jar":"https://raw.githubusercontent.com/guot55/yg/main/pg.jar"},
+    {"key": "Yinyuetai","name": "音悦台","type": 3,"api": "csp_Yinyuetai","searchable": 1,"changeable": 0,"jar":"https://raw.githubusercontent.com/guot55/yg/main/pg.jar"},
 
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
     { "key": "T4-xiaogou", "name": "音乐-小狗(T4)", "type": 4, "api": "https://catbox.n13.club/t9/xiaogou.php" },
