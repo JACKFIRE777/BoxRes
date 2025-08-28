@@ -23,21 +23,22 @@
     { "key": "豆瓣2", "name": "📢豆瓣热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
     { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_Douban", "searchable": 0 },
 
-    { "key": "MV大全", "name": "🎵MV音乐🎵", "type": 4, "api": "http://120.53.102.254/dsp/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-    { "key": "MV演唱会", "name": "🎵┃歌曲┃MV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/song.json" } },
+    { "key": "MV大全", "name": "🎤MV音乐🎵", "type": 4, "api": "http://120.53.102.254/dsp/", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "MV演唱会", "name": "🎧┃歌曲┃MV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/song.json" } },
     { "key": "酷奇MV", "name": "🎸┃酷奇┃MV", "type": 3, "api": "csp_XBPQ", "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69", "searchable": 1, "quickSearch": 1, "filterable": 1, "style": { "type": "rect", "ratio": 1.433 }, "ext": { "主页url": "https://www.kuqimv.com", "直接播放": "1", "短视频": "1", "分类": "华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10", "分类url": "https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z", "数组": "<li>&&</li>", "标题": "title=\"&&\"", "副标题": "target=\"play\">&&<", "搜索模式": "1", "搜索url": "https://www.kuqimv.com/search.php?key={wd}" } },
-    { "key": "MV_vod", "name": "🎤┃电视┃MTV", "type": 3, "api": "csp_Bili", "style": { "type": "rect", "ratio": 1.433 }, "searchable": 1, "quickSearch": 1, "changeable": 1, "ext": { "json": "https://git.acwing.com/iduoduo/orange/-/raw/main/json/mtv.json" } },
-    { "key": "MTV2", "name": "🎧┃明星┃MV2", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull" } },
     {"key":"酷狗","name":"🐾┃酷狗┃音乐","type":3,"api":"csp_Kugou","playerType":2,"ext":{"classes":[{"type_name":"酷狗","type_id":"kugou"}]},"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37e4d70e91824037/PandaQ250808.jpg;md5;1099f9cedab19f487ac8fc283d9ca447"},
 
     {"key":"Iktv","name":"🎤KTV┃音乐🎤","type":3,"api":"csp_WexIktvGuard","searchable":1,"changeable":0,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9fadd28b5fb884e3/wex.png;md5;da870f2384c7d328231d8c47934e98e0"},
+
+ 
+    {"key":"圆涂影视","name":"sw圆涂","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://m51.gotto.top/api.php/v1.vod"},
+    {"key": "csp_xpath_A33","name":"🎸TV音乐","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "http://home.jundie.top:81/TVBox/MaooXB/mtv.json"},
 
 
     
     {"key":"csp_Yinyuetai","name":"雷蒙影视 | 🎵音悦台(SP)","type":3,"jar": "https://ghfast.top/https://github.com/JACKFIRE777/N3RD/blob/master/JN/N3RD/J/pg.jar", "api":"csp_Yinyuetai","searchable":1,"changeable":0},
     
     { "key": "T4-2024热门", "name": "音乐-热门MV(T4)", "type": 4, "api": "https://catbox.n13.club/t9/bili.php?id=2024" },
-    { "key": "T4-xiaogou", "name": "音乐-小狗(T4)", "type": 4, "api": "https://catbox.n13.club/t9/xiaogou.php" },
     { "key": "T4-qingting", "name": "音乐-蜻蜓电台", "type": 4, "api": "https://catbox.n13.club/t9/qingting.php" },
     { "key": "T4-tangdou", "name": "音乐-糖豆广场舞", "type": 4, "api": "https://catbox.n13.club/t9/tangdou.php" },
     { "key": "T4-djuu", "name": "音乐-DJ(T4)", "type": 4, "api": "https://catbox.n13.club/t9/djuu.php" },
