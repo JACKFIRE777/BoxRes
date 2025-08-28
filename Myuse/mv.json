@@ -34,7 +34,7 @@
     {"key":"圆涂影视","name":"sw圆涂","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://m51.gotto.top/api.php/v1.vod"},
     {"key": "csp_xpath_A33","name":"🎸TV音乐","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "http://home.jundie.top:81/TVBox/MaooXB/mtv.json"},
 
-
+     {"key": "音乐MV-T4", "name": "T4┃音乐MV含电台", "type": 4, "api": "https://catbox.n13.club/t9/t4.php" },
     
     {"key":"csp_Yinyuetai","name":"雷蒙影视 | 🎵音悦台(SP)","type":3,"jar": "https://ghfast.top/https://github.com/JACKFIRE777/N3RD/blob/master/JN/N3RD/J/pg.jar", "api":"csp_Yinyuetai","searchable":1,"changeable":0},
     
@@ -42,6 +42,9 @@
     { "key": "T4-qingting", "name": "音乐-蜻蜓电台", "type": 4, "api": "https://catbox.n13.club/t9/qingting.php" },
     { "key": "T4-tangdou", "name": "音乐-糖豆广场舞", "type": 4, "api": "https://catbox.n13.club/t9/tangdou.php" },
     { "key": "T4-djuu", "name": "音乐-DJ(T4)", "type": 4, "api": "https://catbox.n13.club/t9/djuu.php" },
+
+    { "key": "T4-cctv", "name": "T4┃其他-央视", "type": 4, "api": "https://catbox.n13.club/t9/cctv.php" },
+    { "key": "T4-cntv",  "name": "T4┃其他-央视2",  "type": 4,  "api": "https://catbox.n13.club/t9/cntv.php" },
 
     { "key": "演唱会", "name": "🅰️演唱会┃哔哩", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/演唱会.json" },
 
@@ -57,6 +60,42 @@
 
     { "key": "戏曲", "name": "🅰️戏曲┃合集", "type": 3, "api": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/我的哔哩.js?type=url&params=https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bilibili/戏曲合集.json" },
 
+  //      >>>来源 https://github.com/wen9180/ziyong/blob/dc247b46abedd20d4a4fc1f9b671f8b25cb5af3a/%E6%95%B4%E7%90%86.json
+        {
+      "key": "单┃live-2",
+      "name": "单┃直转点┃电视",
+      "api": "csp_zb",
+      "categories": null,
+      "click": null,
+      "filterable": null,
+      "hide": -1,
+      "playerType": 1,
+      "playerUrl": null,
+      "quickSearch": 0,
+      "searchable": 0,
+      "type": 3,
+      "status": 1,
+      "jar": "./jar/zb.jar",
+      "ext": "ziyong┃本地$./live/ziyong.txt#电台┃本地$./live/电台.txt#MV┃本地$./live/MTV.txt#电台┃在线$https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/Radio.m3u#16万•MV$https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt#live$http://woniuxs.free.nf/live.txt#猫TV直播②$http://rihou.cc:567/gggg.nzk#itvlist$https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt#无界$https://www.xn--rgv465a.top/live/live.txt#「体育」订阅$https://smart.pendy.dpdns.org/m3u/judy.m3u#玉兔$http://lzo.xh.sd/lives/玉兔.txt#18+直播$http://lzo.xh.sd/lives/18TV.txt#18+影视$http://lzo.xh.sd/lives/18+.txt#一本道$http://lzo.xh.sd/lives/一本道.txt#一本正经道$http://lzo.xh.sd/lives/一本正经道.txt#大洋马国际$http://lzo.xh.sd/lives/大洋马国际.txt麻豆传媒$https://pan.jl8.top/down.php/882ef80c32c262ebf4c0cfb3e725f459.txt#秒播LIST$https://gh-proxy.com/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/成人电影.txt#秒播91LIST$https://mpimg.cn/down.php/25da10b0cb7b90d422ae22852bd7d414.txt#岛国 4K$https://www.jsonav.xyz/v.txt#美女直播$https://d.kstore.dev/download/13045/1_%E7%B2%BE%E5%93%81%E5%BF%AB%E9%A4%90%281%29.txt"
+    },
+
+    {
+      "key": "JS┃直转点┃集合",
+      "name": "JS┃直转点┃集合",
+      "type": 3,
+      "searchable": 0,
+      "api": "https://ghfast.top/https://github.com/wen9180/ziyong/tree/dc247b46abedd20d4a4fc1f9b671f8b25cb5af3a/js/zbzdb.js",
+      "ext": "https://ghfast.top/https://github.com/wen9180/ziyong/tree/dc247b46abedd20d4a4fc1f9b671f8b25cb5af3a/live/live集合.json"
+    },
+
+    {
+      "key": "单┃MGTV",
+      "name": "单┃MGTV",
+      "type": 3,
+      "api": "csp_MGTV",
+      "jar": "https://ghfast.top/https://github.com/wen9180/ziyong/tree/dc247b46abedd20d4a4fc1f9b671f8b25cb5af3a/jar/top98_1.jar"
+    },
+    
     { "key": "push_agent", "name": "📢手机｜推送", "type": 3, "api": "csp_Push", "searchable": 0, "filterable": 0, "changeable": 0 },
     { "key": "应用商店", "name": "🛒本地包更新", "type": 3, "api": "csp_Market", "searchable": 0, "changeable": 0, "ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php" }
   ]
