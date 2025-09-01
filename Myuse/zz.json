@@ -1,33 +1,27 @@
-//  当前接口：http://www.饭太硬.net/tv
-
+//      >>> 用的肥猫spider
 {
-"spider":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2bdded774db1bfc1/f0821.jpg;md5;bcaa35ff60c87f537cf509da3c40411e",
-"wallpaper":"https://深色壁纸.xxooo.cf/",
-  
-"sites":[
-   ## 📢 预告 ##
-{"key":"YGP","name":"🚀叨观荐影┃预告片","type":3,"api":"csp_YGPGuard","searchable":0,"quickSearch":0,"changeable":0},
-{"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
-{"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCzGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"剧九","name":"🍙剧九┃多线","type":3,"api":"csp_AppYsV2Guard","searchable":1,"quickSearch":1,"filterable":1,"ext":"rfOK0+FRORAJ7epFjN2F5bqpqyOZwM/2zjo8fIu3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"},
-{"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":30,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteAppleGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"白白","name":"🐟白白┃秒播","type":3,"api":"csp_SbaibaiGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Lib","name":"🌟立播┃秒播","type":3,"api":"csp_LibvioGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key":"zxzj","name":"🍊在线┃秒播","type":3,"api":"csp_ZxzjGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
-{"key":"比特","name":"🍄比特┃手机","type":3,"api":"csp_BttwooGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"低端","name":"⏮️低端┃外剧","type":3,"api":"csp_DdrkGuard","timeout":15,"playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"萌米","name":"👀萌米┃多线","type":3,"api":"csp_AppTTGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENEIVq+dC1p/Y9uWjuA=="},
-{"key":"热播","name":"📺热播┃多线","type":3,"api":"csp_AppTTGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
-{"key":"欢视","name":"👓欢视┃多线","type":3,"api":"csp_AppTTGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT9fFAy5mE5qU="},
-{"key":"奥特","name":"🏝奥特┃多线","type":3,"api":"csp_AueteGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/"},
-{"key":"荐片","name":"🐭荐片┃P2P","type":3,"api":"csp_JPJGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
-{"key":"新6V","name":"🧲新6V┃磁力","type":3,"api":"csp_SixVGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/"},
-{"key":"Dm84","name":"🚌巴士┃动漫","type":3,"api":"csp_Dm84Guard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_YsjGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Anime1","name":"🐾日本┃动漫","type":3,"api":"csp_Anime1Guard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1}
+  "wallpaper": "https://xn--zz-5f5du30d.v.nxog.top/m/t/",
+  "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
+  "spider":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;6276abe2ed52f1d2c89907eb2ace564b",
+  "warningText": "我爱zz提示:📢接口软件永远免费📢长期维护切勿贩卖",
 
-],
+
+  
+  "lives": [
+    {
+      "name": "我爱zz",
+      "type": 0,
+      "url": "https://xn--zz-5f5du30d.v.nxog.top/m/tv/?ou=欧歌APP",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "logo": "https://py.nxog.eu.org/https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
+      "playerType": 2,
+      "timeout": 10
+    }
+  ],
+
+  "sites": [
+    { "key": "豆瓣2", "name": "📢豆瓣热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
+    { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_Douban", "searchable": 0 },
+    {"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"}
+  ]
 }
