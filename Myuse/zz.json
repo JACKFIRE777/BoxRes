@@ -39,53 +39,14 @@
     {"key":"Anime1","name":"🐾日本┃动漫","type":3,"api":"csp_Anime1Guard","timeout":10,"searchable":1,"quickSearch":1,"jar":"https://fs-im-kefu.7moor-fs1.com/.../f0425.txt","changeable":1},
     {"key":"T4-xifan","name":"动漫-稀饭(T4)","type":4,"api":"https://catbox.n13.club/t9/xifan.php"},
 
-    ## ===== 音乐类 =====
-    {"key":"MV大全","name":"🎵MV音乐","type":4,"api":"http://120.53.102.254/dsp/","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"T4-2024热门","name":"音乐-热门MV(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=2024"},
-    {"key":"T4-xiaogou","name":"音乐-小狗(T4)","type":4,"api":"https://catbox.n13.club/t9/xiaogou.php"},
-    {"key":"T4-qingting","name":"音乐-蜻蜓(T4)","type":4,"api":"https://catbox.n13.club/t9/qingting.php"},
-    {"key":"T4-tangdou","name":"音乐-糖豆(T4)","type":4,"api":"https://catbox.n13.club/t9/tangdou.php"},
-    {"key":"T4-djuu","name":"音乐-DJUU(T4)","type":4,"api":"https://catbox.n13.club/t9/djuu.php"},
-
-    ## ===== 体育类 =====
-    {"key":"T4-qiertiyu","name":"体育-企鹅(T4)","type":4,"api":"https://catbox.n13.club/t9/qietiyu.php"},
-    {"key":"T4-360kq","name":"体育-看球(T4)","type":4,"api":"https://catbox.n13.club/t9/360kq.php"},
-
-    ## ===== 儿童/听书/学习类 =====
-    {"key":"T4-blh","name":"儿童-贝乐虎(T4)","type":4,"api":"https://catbox.n13.club/t9/beilehu.php"},
-    {"key":"tuxiaobei","name":"儿童-兔小贝(T4)","type":4,"api":"https://catbox.n13.club/t9/tuxiaobei.php"},
-    {"key":"T4-bookan","name":"听书-博看(T4)","type":4,"api":"https://catbox.n13.club/t9/bookan.php"},
-    {"key":"xuexi","name":"线路|学习","type":4,"api":"https://catbox.n13.club/t9/xuexi.php"},
-
     ## ===== B站类(合集/教育/娱乐) =====
-    {"key":"T4-jieshuo","name":"B站-解说(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=影视解说"},
-    {"key":"T4-bmtv","name":"B站-MTV(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=bMTV"},
-    {"key":"T4-Blixs","name":"B站-相声(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=Blixs"},
-    {"key":"T4-Blixq","name":"B站-戏曲(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=Blixq"},
-    {"key":"T4-Bliych","name":"B站-演唱会(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=Bliych"},
-    {"key":"T4-mybili","name":"B站-mybili(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=我的哔哩"},
     {"key":"T4-bili","name":"B站-哔哩(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php"},
-    {"key":"T4-waiyu","name":"B站-外语(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=waiyu"},
-    {"key":"T4-bili1","name":"B站-幼儿(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=少儿教育"},
-    {"key":"T4-bili2","name":"B站-小学(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小学课堂"},
-    {"key":"T4-bili3","name":"B站-初中(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=初中课堂"},
-    {"key":"T4-bili4","name":"B站-高中(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=高中课堂"},
-    {"key":"T4-小灯塔科学","name":"B站-小灯塔科学(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小灯塔科学"},
-    {"key":"T4-小灯塔地理","name":"B站-小灯塔地理(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小灯塔地理"},
-    {"key":"T4-小灯塔百科","name":"B站-小灯塔百科(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小灯塔百科"},
-    {"key":"T4-小灯塔国学","name":"B站-小灯塔国学(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=小灯塔国学"},
+
 
     ## ===== 其他(TV/央视/急救等) =====
     {"key":"T4-jijiu","name":"其他-急救(T4)","type":4,"api":"https://catbox.n13.club/t9/jijiu.php"},
     {"key":"T4-cctv","name":"其他-央视(T4)","type":4,"api":"https://catbox.n13.club/t9/cctv.php"},
     {"key":"T4-cntv","name":"其他-央视2(T4)","type":4,"api":"https://catbox.n13.club/t9/cntv.php"}
-  ],
-
-  ## ===== 直播源 =====
-  "lives":[
-    {"name":"live.ipv6","type":0,"url":"https://catbox.n13.club/jk/live","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-    {"name":"live.ipv6.m3u","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-    {"name":"live.fan","type":0,"url":"https://mirror.ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
   ],
 
   ## ===== DNS设置 =====
