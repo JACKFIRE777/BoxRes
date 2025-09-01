@@ -4,10 +4,18 @@
   "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
   "spider":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;6276abe2ed52f1d2c89907eb2ace564b",
   "warningText": "我爱zz提示:📢接口软件永远免费📢长期维护切勿贩卖",
-
+  
   "sites": [
     { "key": "豆瓣2", "name": "📢豆瓣热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
-    { "key": "预告", "name": "🌸新片｜预告", "type": 3, "api": "csp_Douban", "searchable": 0 },
     {"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"}
+
+
+
+
+    
   ]
 }
+
+
+
+
