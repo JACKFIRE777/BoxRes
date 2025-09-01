@@ -6,8 +6,9 @@
   "warningText": "我爱zz提示:📢接口软件永远免费📢长期维护切勿贩卖",
   
   "sites": [
-    { "key": "豆瓣2", "name": "📢豆瓣热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
-    {"key":"T4-yugaopian","name":"影视-预告片(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"}
+    { "key": "豆瓣2", "name": "📢豆瓣┃热播", "type": 3, "api": "csp_Douban", "searchable": 0 },
+    {"key":"豆瓣预告","name":"📢豆瓣┃预告","type":3,"api":"csp_YGP","playerType":2,"searchable":0},
+    {"key":"T4-yugaopian","name":"📢影视┃预告片","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"}
 
 
 
